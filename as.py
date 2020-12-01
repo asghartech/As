@@ -53,15 +53,21 @@ def hamza(z):
 		time.sleep(0.03)
 ##### LOGO #####
 banner = """
-\x1b[1;91m  \    / |\ /| | /
-\x1b[1;93m   \  /  | • | |•
-\x1b[1;93m    \/   |   | | \
-              (FREEDOM FIGHTER)
+\x1b[1;91m  
+\x1b[1;93m
+┏━━━┳━━━┳━━━┳┓╋┏┳━━━┳━━━┓
+┃┏━┓┃┏━┓┃┏━┓┃┃╋┃┃┏━┓┃┏━┓┃
+┃┃╋┃┃┗━━┫┃╋┗┫┗━┛┃┃╋┃┃┗━┛┃
+┃┗━┛┣━━┓┃┃┏━┫┏━┓┃┗━┛┃┏┓┏┛
+┃┏━┓┃┗━┛┃┗┻━┃┃╋┃┃┏━┓┃┃┃┗┓
+┗┛╋┗┻━━━┻━━━┻┛╋┗┻┛╋┗┻┛┗━┛
+\x1b[1;93m    
+              (Inoxent Boy)
 \x1b[1;94m-----------°°°°°°°°°------------°°°°°°°°°-----
-\x1b[1;92m➣ Coder   : ASAD ANSAARI
-\x1b[1;92m➣ Github  : HTTPS://GITHUB.COM/VIRUSMAKERKINGASAD
-\x1b[1;92m➣ Facebook:  ASAD ANSARI
-\x1b[1;92m➣ Whatsapp: 03034284226
+\x1b[1;92m➣ Coder   : ASGHAR LATIF
+\x1b[1;92m➣ Github  : HTTPS://GITHUB.COM/ASGHARTECH
+\x1b[1;92m➣ Facebook: ASGHAR LATIF
+\x1b[1;92m➣ Whatsapp: 03*********
 \x1b[1;94m----------°°°°°°°°°------------°°°°°°°°°----"""
 # titik #
 def tik():
@@ -76,7 +82,7 @@ def tlogin():
 	os.system('clear')
 	print banner
 	username = raw_input("[+] TOOL USERNAME: ")
-	if username =="SH007":
+	if username =="786":
 	    os.system('clear')
 	    print banner
 	    print "[✓] TOOL USERNAME: "+username+ " (correct)"
@@ -86,7 +92,7 @@ def tlogin():
 	    tlogin()
 	    
 	passw = raw_input("[+] TOOL PASSWORD: ")
-	if passw =="OWNER":
+	if passw =="786":
 	    os.system('clear')
 	    print banner
 	    print "[✓] TOOL USERNAME: " +username+ " (correct)"
@@ -132,8 +138,8 @@ def methodlogin():
 		hopa.close()
 		print "\n[✓] Logged In Successfully."
 		time.sleep(1)
-		os.system('xdg-open https://www.youtube.com/channel/UCPRlRzOAEH8mcB1WtXf4Q1w')
-		os.system('python2 .hop2.py')
+		
+		os.system('python2 .malik.py')
 		
 	elif hos =="0":
 		exit()
