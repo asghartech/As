@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # coding=utf-8
-# Originally Written By:ASAD X DANISH
+# Originally Written By:ASGHAR LATIF
 # Source : Python2"
 # Donot Recode It. 
 
@@ -59,17 +59,17 @@ def hopss(z):
 ##### LOGO #####
 banner = """
 \x1b[1;91m  _________________________________________________
-\x1b[1;91m SPEED HACKER 007 FAMILY ALWAYS ON FIRE 
+\x1b[1;91m SPEED HACKER Malik Asghar Latif 
 \x1b[1;91m HATERZ MAKE ME FAMOUS 
-\x1b[1;91m 909 ST0P PH4D3B44Z 4S4D 49S44R1 09 F1R3
-\x1b[1;91m FB ID ;ASAD ANSARI 
+\x1b[1;91m 909 ST0P Your mind is your best weapon
+\x1b[1;91m FB ID ;ASGHAR LATIF 
 \x1b[1;91m 
-\x1b[1;93m                     (FREEDOM FIGHTER)
+\x1b[1;93m                     (Inoxent boy)
 \x1b[1;94m-----------°°°°°°°°°------------°°°°°°°°°-----
-\x1b[1;92m➣ Coder   : ASAD ANSAARI
-\x1b[1;92m➣ Github  : HTTPS://GITHUB.COM/VIRUSMAKERKINGASAD
-\x1b[1;92m➣ Facebook:  ASAD ANSARI
-\x1b[1;92m➣ Whatsapp: 03034284226
+\x1b[1;92m➣ Coder   :ASGHAR LATIF
+ASh1b[1;92m➣ Github  : HTTPS://GITHUB.COM/ASGHARTECH
+\x1b[1;92m➣ Facebook:  ASGHAR LATIF
+\x1b[1;92m➣ Whatsapp: 03*********
 \x1b[1;94m----------°°°°°°°°°------------°°°°°°°°°----"""
 # titik #
 def tik():
@@ -98,7 +98,7 @@ def menu():
 		print"[!] Token Not Found"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
-		os.system('python2 hop.py')
+		os.system('python2 malik.py')
 	try:
 		otw = requests.get('https://graph.facebook.com/me?access_token='+toket)
 		a = json.loads(otw.text)
@@ -109,7 +109,7 @@ def menu():
 		print"[!] Account Is On Checkpoint"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
-		os.system('python2 hop.py')
+		os.system('python2 malik.py')
 	except requests.exceptions.ConnectionError:
 		print"[!] No Connection"
 		time.sleep(1)
@@ -154,14 +154,14 @@ def men():
 		hamza('[✓] Tool Has Been Update Successfully')
 		hamza('[✓] Please Wait While Update Is Setting Up On Your Mobile Phone')
 		time.sleep(3)
-		os.hamza('python2 hop.py')
+		os.hamza('python2 malik.py')
 	elif rana =="6":
 		os.system('xdg-open https://www.facebook.com/muhammad.hamza1626')
 		menu()
 	elif rana =="7":
 		os.system('rm -rf login.txt')
 		hamza('[✓] Logged Out Successfully')
-		os.system('python2 hop.py')
+		os.system('python2 malik.py')
 	else:
 		print "[!] Wrong Input"
 		men()
@@ -176,7 +176,7 @@ def crack():
 		print"Token invalid"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
-		os.system('python2 hop.py')
+		os.system('python2 malik.py')
 	os.system('clear')
 	print banner
 	print "[1] Clone From Friendlist."
